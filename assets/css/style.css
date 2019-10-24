@@ -45,14 +45,12 @@ h2 {
 }
 
 /*floats out to space on right hand side?*/
-.about {
+.container{
     background-color: white; 
-    margin: 5% 10% 20% 10%; 
+    margin: 70px 10% 40px 10%; 
     padding: 30px; 
     width: 60%;
     min-width: 500px;  
-    
-
 }
 
 #headshot {
@@ -76,17 +74,39 @@ footer {
 
 }
 
+/*styling for contact html - submit button*/
+.btn {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 100px; 
+    padding: 15px 5px; 
+    font-size: 100%; 
+    border: none; 
+    border-radius: 0; 
+}
+
+.btn:hover{
+    background-color: rgba(74, 170, 165, 0.5); 
+}
+
+#formbtn:active {
+    background-color: rgba(74, 170, 165, 0.5); 
+}
+
+
 /*media queries for margins*/
 @media (max-width: 575.98px) {
-    .navbar-nav, .navbar-toggler, .about {
-        margin-right: 0; 
+    .navbar-nav, .navbar-toggler{
+        margin-right: 10px; 
         
     }
-    .navbar-brand, .about {
-        margin-left: 0%;   
+    .navbar-brand {
+        margin-left: 10px;   
     }
 
-    .about {
-        width: 100%; 
+    .container {
+        min-width: 480px; 
+        margin-right: auto;
+        margin-left: auto;
     }
 }
