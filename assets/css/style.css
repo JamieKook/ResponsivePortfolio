@@ -17,3 +17,24 @@ h1, h2, h3, h6 {
     font-family: "Georgia", Times, 'Times New Roman', serif;
 }
 
+.navbar-brand {
+    margin-left: 12%;  
+    
+}
+
+.navbar-nav, .navbar-toggler {
+    margin-right: 12%; 
+    
+}
+
+
+@media (max-width: 575.98px) {
+    .navbar-nav, .navbar-toggler {
+        margin-right: 0; 
+        
+    }
+    .navbar-brand {
+        margin-left: 0%;  
+        
+    }
+}
