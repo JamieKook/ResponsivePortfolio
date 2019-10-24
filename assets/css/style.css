@@ -47,8 +47,10 @@ h2 {
 /*floats out to space on right hand side?*/
 .about {
     background-color: white; 
-    margin: 5% 10% 5% 10%; 
+    margin: 5% 10% 20% 10%; 
     padding: 30px; 
+    width: 60%;
+    min-width: 500px;  
     
 
 }
@@ -61,6 +63,18 @@ h2 {
     margin-bottom: 20px; 
 }
 
+/*styling for footer*/
+footer {
+    background-color: #666; 
+    border-top: 8px solid #4aaaa5; 
+    text-align: center;
+    padding: 15px; 
+    position: relative;
+    left: 0;
+    bottom: 0; 
+    width: 100%; 
+
+}
 
 /*media queries for margins*/
 @media (max-width: 575.98px) {
@@ -69,7 +83,10 @@ h2 {
         
     }
     .navbar-brand, .about {
-        margin-left: 0%;  
-        
+        margin-left: 0%;   
+    }
+
+    .about {
+        width: 100%; 
     }
 }
