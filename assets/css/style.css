@@ -44,7 +44,7 @@ h2 {
     font-weight: bold; 
 }
 
-/*floats out to space on right hand side?*/
+
 .container{
     background-color: white; 
     margin: 70px 10% 40px 10%; 
@@ -92,6 +92,57 @@ footer {
 #formbtn:active {
     background-color: rgba(74, 170, 165, 0.5); 
 }
+
+/*styling for projects on portfolio page*/
+
+
+img {
+    height: 350px;
+    width: 350px; 
+    margin: 15px;  
+}
+
+.responsive {
+    height: auto; 
+    width: 100%; 
+}
+
+
+
+/*for headers on portfolio images but currently not in use*/
+.project h3 {
+    background-color: #4aaaa5;
+    color: white;
+    display: absolute; 
+    top: 50px; 
+
+}
+
+
+/* div.one{
+    background-image: url("/assets/images/hangman.jpg"); 
+    background-size: cover;
+}
+
+div.two{
+    background-image: url("/assets/images/rpg.jpg"); 
+    background-size: cover;  
+}
+
+div.three{
+    background-image: url("/assets/images/trivia.jpg"); 
+    background-size: cover;  
+}
+
+div.four{
+    background-image: url("/assets/images/rutgers.jpg"); 
+    background-size: cover;  
+}
+
+div.five{
+    background-image: url("/assets/images/rock.jpg"); 
+    background-size: cover;  
+} */
 
 
 /*media queries for margins*/
