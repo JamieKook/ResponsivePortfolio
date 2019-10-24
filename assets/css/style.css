@@ -9,6 +9,12 @@ h1, h2, h3, h6 {
     font-family: "Georgia", Times, 'Times New Roman', serif;
 }
 
+p {
+    color: #212529;
+    line-height: 1.5; 
+}
+
+/*styling for nav bar */
 #header{
     background-color: #4aaaa5;
     color: #ffffff;
@@ -18,22 +24,51 @@ h1, h2, h3, h6 {
 }
 
 .navbar-brand {
-    margin-left: 12%;  
+    margin-left: 10%;  
     
 }
 
 .navbar-nav, .navbar-toggler {
-    margin-right: 12%; 
+    margin-right: 10%; 
     
 }
 
 
+/*styling for about me section*/
+h2 {
+    color: #4aaaa5;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px; 
+    margin-bottom: 20px; 
+    font-size: 40px; 
+    font-weight: bold; 
+}
+
+/*floats out to space on right hand side?*/
+.about {
+    background-color: white; 
+    margin: 5% 10% 5% 10%; 
+    padding: 30px; 
+    
+
+}
+
+#headshot {
+    width: 200px;
+    height: 200px; 
+    float: left; 
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+}
+
+
+/*media queries for margins*/
 @media (max-width: 575.98px) {
-    .navbar-nav, .navbar-toggler {
+    .navbar-nav, .navbar-toggler, .about {
         margin-right: 0; 
         
     }
-    .navbar-brand {
+    .navbar-brand, .about {
         margin-left: 0%;  
         
     }
