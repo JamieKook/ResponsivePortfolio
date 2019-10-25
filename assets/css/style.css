@@ -50,12 +50,15 @@ p {
     border-right: 1px solid #cccccc;
 }
 
-/*forgmating main content center*/
+/*forgmating main content center- put no margins if not using commented out code below*/
 .standard{
     background-color: white; 
     margin-top: 40px;
-    padding: 30px; 
-    /* margin: 70px 10% 40px 10%; 
+    margin-bottom: 100px; 
+    padding: 30px;
+    
+    /*  works with margin if not using bootstrap container
+    margin: 70px 10% 40px 10%; 
     padding: 30px; 
     width: 60%;
     min-width: 500px;   */
@@ -75,4 +78,18 @@ h2 {
     float: left; 
     margin-right: 20px; 
     margin-bottom: 20px; 
+}
+
+/*styling for footer- Is there a way to do this with bootstrap?*/
+footer {
+    background-color: #666; 
+    border-top: 8px solid #4aaaa5; 
+    text-align: center;
+    padding: 15px; 
+    position: fixed;
+    left: 0;
+    bottom: 0; 
+    width: 100%;
+
+
 }
