@@ -23,6 +23,7 @@ p {
     padding: 15px 15px;
     font-weight: bold; 
     font-family: "Georgia", Times, 'Times New Roman', serif;
+    text-align: center;
   
 }
 
@@ -31,17 +32,47 @@ p {
     padding: 0 1rem; 
 }
 
+/*added to make border lines shorter*/
 .nav-link{
     padding-top: 0;
     padding-bottom: 0; 
 }
 
+/*change background color*/
 .custnav {
     background-color: #ffffff !important;
     border-bottom: 2px solid #cccccc;
 }
 
+/*add border lines to nav links*/
 #Portlink {
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
+}
+
+/*forgmating main content center*/
+.standard{
+    background-color: white; 
+    margin-top: 40px;
+    padding: 30px; 
+    /* margin: 70px 10% 40px 10%; 
+    padding: 30px; 
+    width: 60%;
+    min-width: 500px;   */
+}
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px; 
+    margin-bottom: 20px; 
+    font-size: 40px; 
+    font-weight: bold; 
+}
+#headshot {
+    width: 200px;
+    height: 200px; 
+    float: left; 
+    margin-right: 20px; 
+    margin-bottom: 20px; 
 }
