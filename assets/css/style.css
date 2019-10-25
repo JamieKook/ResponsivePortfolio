@@ -1,0 +1,47 @@
+/*general styling for whole document- typography*/
+
+body {
+    color: #777777;
+    font-family: "Arial", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    background-image: url(/assets/images/extra_clean_paper.png);
+    
+}
+
+h1, h2, h3, h6 {
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+}
+
+p {
+    color: #212529;
+    line-height: 1.5; 
+}
+
+/*styling for nav bar */
+#header{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 15px 15px;
+    font-weight: bold; 
+    font-family: "Georgia", Times, 'Times New Roman', serif;
+  
+}
+
+/*added to have header logo fill entire navbar*/
+.navbar {
+    padding: 0 1rem; 
+}
+
+.nav-link{
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+
+.custnav {
+    background-color: #ffffff !important;
+    border-bottom: 2px solid #cccccc;
+}
+
+#Portlink {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
