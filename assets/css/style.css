@@ -93,3 +93,22 @@ footer {
 
 
 }
+
+/*styling for contact html - submit button*/
+.btn {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 100px; 
+    padding: 15px 5px; 
+    font-size: 100%; 
+    border: none; 
+    border-radius: 0; 
+}
+
+.btn:hover{
+    background-color: rgba(74, 170, 165, 0.5); 
+}
+
+#formbtn:active {
+    background-color: rgba(74, 170, 165, 0.5); 
+}
